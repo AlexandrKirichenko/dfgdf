@@ -1,10 +1,9 @@
 //@import "../node_modules/normalize-scss/sass/normalize";
 //@include normalize();
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
 //Abstract
 @import "abstract/mixins";
 @import "abstract/constants.scss";
-@import "abstract/placeholders";
 
 
 //Base
@@ -22,7 +21,7 @@
 
 //Components
 @import "components/promo";
-@import "components/brands";
+@import "components/customers";
 @import "components/create-account";
 @import "components/features";
 @import "components/sysop";

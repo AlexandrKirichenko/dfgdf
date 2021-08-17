@@ -12,8 +12,11 @@
   color: $color-white;
   .create-account__description{
     @include font(1.8rem, 3rem, normal);
+    @include mobile{
+      text-align: center;
+    }
   }
-
+  
 }
 
 .trial__container{
@@ -22,9 +25,9 @@
 }
 
 .ico_logo {
-    background: url("/img/logo-white.svg");
-    width: 74px;
-    height: 56px;
+  background: url("/img/logo-white.svg");
+  width: 74px;
+  height: 56px;
 }
 
 .link-button {
@@ -37,3 +40,11 @@
   }
 }
 
+.create-account__buttons {
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+}

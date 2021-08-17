@@ -1,3 +1,8 @@
+//Placeholder
+%transition {
+  transition: all .3s ease-out;
+}
+
 @mixin font ($size, $height, $weight : 600, $style : normal) {
   font-size: $size;
   font-style: $style;
@@ -26,16 +31,17 @@
   width: $width;
 }
 
-
-@mixin media-tablet {
-  @media (max-width: $tablet-width) { @content;}
+@mixin bg-customers($url,$height,$width : $height) {
+  background: url($url) no-repeat center;
+  height: $height;
+  width: $width;
 }
 
-@mixin media-mobile {
-  @media (max-width: $mobile-big-width) { @content;}
+
+@mixin mobile {
+  @media (max-width: $mobile-bid-width) { @content;}
 }
 
-@mixin media-mobilesmall {
+@mixin mobilesmall {
   @media (max-width: $mobile-small-width) { @content;}
 }
-

@@ -32,9 +32,7 @@
     <div class="header__container container">
         <div class="header__logo-line">
             <span class="hamburger">
-                <span class="hamburger__line">
-                
-                </span>
+                <span class="hamburger__line"></span>
             </span>
         </div>
         <a href="#" class="logo" >
@@ -64,10 +62,12 @@
             <button class="button button_colored">Free Trial</button>
         </div>
     </div>
-    <div class="promo">
+</header>
+<main>
+    <section class="promo">
         <div class="promo__container container">
             <div class="promo__content">
-                <h1>Digital Signage Made Easy</h1>
+                <h1 class="promo__content__header">Digital Signage Made Easy</h1>
                 <p class="content__text">Turn any screen into a digital sign in minutes with CloudShow. Trusted by businesses worldwide, see how
                     CloudShow can help your business today.</p>
                 <div class="promo__buttons">
@@ -76,17 +76,16 @@
                     <p>60-day Enterprise free trial</p>
                 </div>
             </div>
-            <img src="/img/images/promo.jpg" class="promo__image" alt="promo__logo">
+<!--            <img src="/img/images/promo.jpg" class="promo__image" alt="promo__logo">-->
+            <div class="promo__image"></div>
         </div>
-    </div>
-</header>
-<main>
-    <section class="brands">
-        <div class="brands__container container">
-            <div class="brands__logo insta"></div>
-            <div class="brands__logo twitter"></div>
-            <div class="brands__logo cnn"></div>
-            <div class="brands__logo facebook"></div>
+    </section>
+    <section class="customers">
+        <div class="customers__container container">
+            <div class="customers__logo insta"></div>
+            <div class="customers__logo twitter"></div>
+            <div class="customers__logo cnn"></div>
+            <div class="customers__logo facebook"></div>
         </div>
     </section>
     <!--    TODO: COlapse sections-->
@@ -94,7 +93,7 @@
         <div class="features_container container">
             <div class="section__header">
                 <h2>CloudShow Features</h2>
-                <p class="section__description">Discover our unique features and learn more about them.</p>
+                <div class="section__description">Discover our unique features and learn more about them.</div>
             </div>
             <div class="layout-3-column">
                 <div class="features__block">
@@ -169,11 +168,11 @@
                     </div>
                 </div>
             </div>
+            <div class="features__link"><a href="#">View all features</a></div>
         </div>
     </section>
     <section class="sysop">
         <div class="sysop__container container">
-            
             <div class="sysop__logo">
                 <img src="/img/sysops.png" alt="sysop.logo">
             </div>
@@ -201,28 +200,28 @@
             </div>
             <div class="layout-2-column">
                 <div class="signage__block">
-                    <figure>
+                    <div>
                         <img class="signage__item" src="/img/images/dashboard.png" alt="dashboards">
-                        <figcaption class="signage__text">Dashboards</figcaption>
-                    </figure>
+                        <p class="signage__text">Dashboards</p>
+                    </div>
                 </div>
                 <div class="signage__block">
-                    <figure>
+                    <div>
                         <img class="signage__item" src="/img/images/calendar.png" alt="calendars">
-                        <figcaption class="signage__text">Calendars</figcaption>
-                    </figure>
+                        <p class="signage__text">Calendars</p>
+                    </div>
                 </div>
                 <div class="signage__block">
-                    <figure>
+                    <div>
                         <img class="signage__item" src="/img/images/weather.png" alt="weather">
-                        <figcaption class="signage__text">Weather</figcaption>
-                    </figure>
+                        <p class="signage__text">Weather</p>
+                    </div>
                 </div>
                 <div class="signage__block">
-                    <figure>
+                    <div>
                         <img class="signage__item" src="/img/images/promotional.png" alt="weather">
-                        <figcaption class="signage__text">Promotional</figcaption>
-                    </figure>
+                        <p class="signage__text">Promotional</p>
+                    </div>
                 </div>
             </div>
         </div>
