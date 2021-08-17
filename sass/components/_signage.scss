@@ -7,7 +7,16 @@
     .signage__text {
       text-align: center;
     }
+    .section__header {
+      padding-top: 93px;
+    }
     .signage__block {
+      .block-wrap {
+        padding: 34px 71px 15px 72px;
+        @include mobile {
+          padding: 5px;
+        }
+      }
       @include flex();
       background: $color-white;
       margin-top: 35px;

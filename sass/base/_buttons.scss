@@ -24,7 +24,7 @@
     border-color: $color-brand;
     color: $color-white;
     padding: 0.6rem 2.1rem 2rem;
-      @extend %transition;
+    @extend %transition;
     &:hover{
       background: $color-white;
       color: $color-brand;
@@ -36,7 +36,7 @@
     border: 1px solid $color-white;
     color: $color-white;
     padding: 0.6rem 5rem;
-      @extend %transition;
+    @extend %transition;
     &:hover {
       background: $color-white;
       border-color: $color-brand;
@@ -48,7 +48,7 @@
     border: 1px solid $color-white;
     color: $color-brand;
     padding: 0.6rem 2rem 1.9rem;
-      @extend %transition;
+    @extend %transition;
     &:hover {
       background: $color-brand;
       border-color: $color-white;

@@ -1,5 +1,16 @@
+//.features_container{
+//  display: flex;
+//  flex-direction: column;
+//  align-items: center;
+//}
 .features {
   background-color:$color-background;
+  .section__header {
+    padding-top: 104px;
+  }
+  .section__description {
+    padding: 1.4rem 0 6rem 0;
+  }
 }
 
 .section__header,
@@ -7,50 +18,48 @@
   text-align: center;
 }
 .section__header {
-  padding-top: 77px;
   margin-bottom: 0;
   font-family: Nunito Sans;
   color:$color-hading;
   @include mobile{
-    padding-top: 5px;
+    padding-top: 0.5rem;
   }
 }
 
 .section__description {
-  padding: 14px 0 60px 0;
-  @include font(18px, 30px, normal);
+  @include font(1.8rem, 3rem, normal);
   color: $color-text;
 }
 
 .layout-3-column {
-  @include columns($width: 334px);
+  @include columns($width: 33.4rem);
   @include mobile{
-    @include columns($width: 364px);
+    @include columns($width: 36.4rem);
   }
-  @include font(14px, 26px, normal);
+  @include font(1.4rem, 2.6rem, normal);
   color: $color-text;
 }
 
 .features__header {
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
   @include flex(flex-start);
 }
 
 .features__link {
-  padding-top: 1px;
+  padding-top: 0.1rem;
   font-family: Nunito Sans;
-  @include font(18px, 30px, bold);
+  @include font(1.8rem, 3rem, bold);
   color: $color-brand;
   text-align: center;
 }
 
 .features__block {
   background-color: $color-white;
-  margin-bottom: 31px;
-  @include font(14px, 26px, normal);
+  margin-bottom: 3.1rem;
+  @include font(1.4rem, 2.6rem, normal);
 }
 
 .block__content-wrap {
-  padding: 25px 18px 25px 25px;
+  padding: 2.5rem 1.8rem 2.5rem 2.5rem;
 }
 
